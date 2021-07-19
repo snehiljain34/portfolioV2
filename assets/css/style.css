@@ -28,6 +28,10 @@
   ::-webkit-scrollbar-thumb:hover {
     background: #555;
   }
+
+html{
+  scroll-behavior: smooth;
+}
 body {
     font-family: "Open Sans", sans-serif;
     color: #272829;
