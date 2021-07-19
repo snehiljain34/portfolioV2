@@ -28,7 +28,18 @@
   ::-webkit-scrollbar-thumb:hover {
     background: #555;
   }
-
+@media screen and (max-width: 769px){
+  .iframe{
+    height: ;
+    width: ;
+  }
+}
+@media screen and (min-width: 1024px){
+  .iframe{
+    height: 290px;
+    width: 530px;
+  }
+}
 html{
   scroll-behavior: smooth;
 }
