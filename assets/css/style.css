@@ -1158,108 +1158,32 @@ body {
   }
   
   
-  .card__content{
-    left: 0;
-    padding: var(--spacing-l);
-    position: absolute;
-    top: 10.5rem;
-  }
-  
-  .card__category{
-    color: var(--text-light);
-    font-size: 0.5rem;
-    margin-bottom: var(--spacing-s);
-    text-transform: uppercase;
-    color: #fff;
-  }
-  
-  .card__heading{
-    color: var(--text-lighter);
-    font-size: 1.1rem;
-    font-weight: bold;
-    text-shadow: 2px 0 0 #2c2c2c, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
-    word-spacing: 100vw;
-    color: #fff;
-  }
+  .card__content { left: 0; position: absolute; top: 10.5rem; } .card__category { color: var(--text-light); font-size: 0.7rem; margin-bottom: var(--spacing-s); text-transform: uppercase; color: #fff; background: #00d1b2; padding: 2px 6px; width: 80px; border-end-end-radius: 10px; border-start-end-radius: 10px; } .card__heading { color: var(--text-lighter); font-size: 1.1rem; font-weight: bold; text-shadow: 2px 0 0 #2c2c2c, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000; word-spacing: 100vw; color: #fff; padding: 0px 15px; }
   
   .carousel{
     width: 40%;
     }
   
+
+    @media(max-width: 768px){
+      #portfolio{
+        height: 492rem;
+      }
+      .carousel{
+        width: 100%;
+        }
+    }
+      
   @media(max-width: 365px){
     #portfolio{
-      height: 504rem;
+      height: 501rem;
     }
     .carousel{
       width: 100%;
       }
   }
   
-  @media only screen and (max-width: 731px) and (min-width: 411px){
-    #portfolio{
-      height: 582rem;
-    }
-    .carousel{
-      width: 100%;
-      }
-  }
-  @media only screen and (max-width: 567px) and (min-width: 319px){
-      #portfolio{
-        height: 444rem;
-      }
-      .carousel{
-        width: 100%;
-        }
-  }
-  @media only screen and (max-width: 667px) and (min-width: 375px){
-    #portfolio{
-      height: 527rem;
-    }
-    .carousel{
-      width: 100%;
-      }
-  }
-  @media only screen and (max-width: 736px) and (min-width: 414px){
-    #portfolio{
-      height: 585rem;
-    }
-    .carousel{
-      width: 100%;
-      }
-  }
-  @media only screen and (max-width: 812px) and (min-width: 414px){
-    #portfolio{
-      height: 526rem;
-    }
-    .carousel{
-      width: 100%;
-      }
-  }
-  @media only screen and (max-width: 768px) and (min-width: 1024px){
-    #portfolio{
-      height: 268rem;
-    }
-    .carousel{
-      width: 100%;
-      }
-  }
-  @media only screen and (max-width: 720px) and (min-width: 540px){
-    #portfolio{
-      height: 200rem;
-    }
-    .carousel{
-      width: 100%;
-      }
-    
-  }
-  @media only screen and (max-width: 653px) and (min-width: 280px){
-    #portfolio{
-      height: 384rem;
-    }
-    .carousel{
-      width: 100%;
-      }
-  }
+  
   .connect{
     background-color: #252525;
     padding-bottom: 70px;
