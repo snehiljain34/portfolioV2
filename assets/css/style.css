@@ -1090,7 +1090,7 @@ body {
   }
   
   #portfolio{
-    height: 92rem;
+    height: 109rem;
     padding-top: 30px;
   }
   
@@ -1165,24 +1165,58 @@ body {
     }
   
 
-    @media(max-width: 768px){
-      #portfolio{
-        height: 492rem;
-      }
-      .carousel{
-        width: 100%;
-        }
-    }
+    
       
-  @media(max-width: 365px){
+
+  
+  @media(max-width: 768px){
     #portfolio{
-      height: 501rem;
+      height: 297rem;
     }
     .carousel{
       width: 100%;
       }
   }
-  
+  @media(max-width: 768px){
+    #portfolio{
+      height: 297rem;
+    }
+    .carousel{
+      width: 100%;
+      }
+  }
+  @media(max-width: 765px){
+    #portfolio{
+      height: 614rem;
+    }
+    .carousel{
+      width: 100%;
+      }
+  }
+  @media(max-width: 376px){
+    #portfolio{
+      height: 557rem;
+    }
+    .carousel{
+      width: 100%;
+      }
+  }
+  @media(max-width: 365px){
+    #portfolio{
+      height: 532rem;
+    }
+    .carousel{
+      width: 100%;
+      }
+  }
+  @media(max-width: 300px){
+    #portfolio{
+      height: 404rem;
+    }
+    .carousel{
+      width: 100%;
+      }
+  }
   
   .connect{
     background-color: #252525;
