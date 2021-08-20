@@ -29,10 +29,14 @@
     background: #555;
   }
 @media screen and (max-width: 769px){
-  .iframe{
-    height: ;
-    width: ;
-  }
+  
+.resume .resume-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px; 
+  margin-bottom: 20px;
+  color: #050d18;
+}
 }
 @media screen and (min-width: 1024px){
   .iframe{
@@ -487,7 +491,7 @@ body {
   .resume .resume-title {
     font-size: 26px;
     font-weight: 700;
-    margin-top: 20px;
+    
     margin-bottom: 20px;
     color: #050d18;
   }
